@@ -1,0 +1,27 @@
+// Typography
+
+// Import Open Sans from Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+
+html {
+  font-family: 'Open Sans', "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+// Font smoothing hack
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1 {}
+
+h2 {}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p {}
+
+li {}

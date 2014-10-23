@@ -1,0 +1,35 @@
+/* = Reset = */
+
+@import "_reset.scss";
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/* Contain floats. */
+.cf:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+// Typography
+
+@import "_typography.scss";
+
+// Style
+
+// Theme Header = = = = = = = = = //
+
+.-t-header-wrapper {
+	background-color: pink;
+	height: 420px;
+}
+
+.-t-header {
+	width: 840px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: green;
+}
